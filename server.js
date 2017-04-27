@@ -1,11 +1,11 @@
 var express = require('express');
 var app = express();
 
-// http://localhost:3003/test/45
+// http://localhost:3003/testParams/45
 //http://localhost:3003/testQuery/bob
 
-app.get('/test/:id', function(req, res) {
-  console.log('in get test');
+app.get('/testParams/:id', function(req, res) {
+  console.log('in get testParams');
   console.log('req.params ->', req.params.id);
   res.sendStatus(200);
 });
