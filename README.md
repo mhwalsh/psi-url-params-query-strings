@@ -1,0 +1,23 @@
+# More ways to send data to the server!
+## URL Params
+
+### Examples of the URL/Request:
+
+```
+// http://localhost:3003/test/45
+//http://localhost:3003/testQuery/bob
+```
+** Note on the Server you will have to define this in the route. Checkout the `server.js` for how to do that.
+
+## Query String
+
+### Examples of the URL/Request:
+```
+//http://localhost:3003/testQuery?name=bob
+//http://localhost:3003/testQuery?name=bob
+//http://localhost:3003/test?id=45
+```
+** Note you don't have to change how you define the server route. Checkout the `server.js` for how to do that.
+
+## Express Documentation
+[https://expressjs.com/en/guide/routing.html](https://expressjs.com/en/guide/routing.html)
